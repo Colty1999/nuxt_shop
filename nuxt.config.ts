@@ -5,5 +5,11 @@ export default defineNuxtConfig({
     typeCheck: true,
     strict: true,
   },
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false,
+    },
+  ],
   modules: ['@nuxtjs/tailwindcss'],
 })

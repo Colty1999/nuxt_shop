@@ -2,7 +2,7 @@
   <div>
     <header class="shadow-sm bg-white">
       <nav class="container mx-auto p-4">
-        <NuxtLink to="/">Nuxt Shop</NuxtLink>
+        <NuxtLink to="/" class="font-bold">Nuxt Shop</NuxtLink>
       </nav>
     </header>
     <div class="container mx-auto p-4">
